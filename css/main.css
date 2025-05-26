@@ -39,7 +39,7 @@ header li a {
     justify-content: space-between;
 }
 
-.articles article img{
+.articles article img {
     /* height: 180px; */
     width: 100%;
 }
@@ -101,6 +101,89 @@ section h2 {
     background-color: #fffa65;
 }
 
-#ecomy .articles article a {
+#economy .articles article a {
     background-color: #ff9f1a;
+}
+
+#cinema img {
+    width: 409.797px;
+    height: 272.766px;
+}
+
+#games img{
+    width: 409.797px; 
+    height: 272.766px;
+}
+
+.container2 {
+    width: 1336px;
+    margin: 0 auto;
+}
+
+.articles2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles2 article img {
+    width: 100%;
+}
+
+.articles2 article {
+    width: 30%;
+}
+
+section h2, 
+.articles2 article {
+    margin-bottom: 16px;
+}
+
+.articles2 h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#cinema .articles2 a {
+    padding: 8px;
+    display: inline-block;
+    margin-top: 8px;
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+}
+
+#games .articles2 a {
+    padding: 8px;
+    display: inline-block;
+    margin-top: 8px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+}
+
+.articles2 p,
+.articles2 a {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+#cinema .articles2 a:hover {
+    text-decoration: underline;    
+}
+
+.articles2 h3 {
+    font-size: 24px;
+}
+
+#games.articles2 article a:hover {
+    text-decoration: underline;
+}
+
+
+#cinema {
+    background-color: rgb(0,0,200);
+}
+
+#games {
+    background-color: rgb(200,0,0);
 }
